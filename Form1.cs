@@ -35,20 +35,6 @@ namespace QueueingSystem
     }
 
     // ═══════════════════════════════════════════
-    //  Entry point
-    // ═══════════════════════════════════════════
-    static class Program
-    {
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
-        }
-    }
-
-    // ═══════════════════════════════════════════
     //  MAIN FORM  –  Light Theme
     // ═══════════════════════════════════════════
     public class MainForm : Form
